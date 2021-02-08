@@ -1,0 +1,94 @@
+table {
+    display: inline-block;
+}
+
+table.asterion-tabulka {
+    border: none;
+    border-collapse: collapse;
+    margin-left: 0.3em;
+}
+
+table.asterion-tabulka thead tr:first-child th[colspan="100%"] {
+    text-align: center;
+    background: none;
+}
+
+table.asterion-tabulka th {
+    background: #cccccc;
+    border-top: black 1px solid;
+}
+
+table.asterion-tabulka th, table.asterion-tabulka td {
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    padding: 0 1em;
+}
+
+table.asterion-tabulka td {
+    border-top: medium none;
+}
+
+table.asterion-tabulka th:not(:first-child), table.asterion-tabulka td:not(:first-child) {
+    text-align: center;
+}
+
+/* DOUBLE BORDER */
+
+table.dvojitý-okraj {
+    padding: 3px; /* aby byl double border videt i pri overflow auto, jinak by byl skryty */
+}
+
+table.dvojitý-okraj th, table.dvojitý-okraj td {
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+table.dvojitý-okraj td:first-child {
+    text-transform: uppercase;
+}
+
+table.dvojitý-okraj td:first-child, table.dvojitý-okraj th:first-child {
+    border-left: black 3px double;
+}
+
+table.dvojitý-okraj thead tr:nth-child(2) th {
+    border-top: black 3px double;
+}
+
+table.dvojitý-okraj tr:last-child td {
+    border-bottom: black 3px double;
+}
+
+table.dvojitý-okraj td:last-child, table.dvojitý-okraj th:last-child {
+    border-right: black 3px double;
+}
+
+table.dvojitý-okraj thead tr:first-child th[colspan="100%"] {
+    border: none;
+}
+
+table.tlustý-okraj {
+    border: solid black 1px; /* přidá +1 pixel k border TD a TH */
+}
+
+table.asterion-tabulka.invertovaná-barva-záhlaví th, table.asterion-tabulka.invertovaná-barva-záhlaví td {
+    text-align: left;
+}
+
+table.invertovaná-barva-záhlaví th {
+    background-color: gray;
+    color: white;
+}
+
+table.borderless {
+    text-align: left;
+}
+
+table.první-řádek-a-sloupec-světle-šedý tr:first-child td {
+    border-top: solid black 1px;
+}
+
+table.první-řádek-a-sloupec-světle-šedý tr:first-child td, table.první-řádek-a-sloupec-světle-šedý td:first-child {
+    background-color: lightgray;
+}

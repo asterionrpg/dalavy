@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd" bootstrap="./Asterion/Tests/tests_bootstrap.php" colors="true">
+  <coverage>
+    <include>
+      <directory>./Asterion</directory>
+    </include>
+    <exclude>
+      <directory>./Asterion/Tests</directory>
+    </exclude>
+  </coverage>
+  <testsuites>
+    <testsuite name="all">
+      <directory>./Asterion/Tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

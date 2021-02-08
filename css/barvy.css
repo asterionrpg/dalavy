@@ -1,0 +1,151 @@
+.fa-gem {
+    text-shadow: 1px 0 1px #919191;
+}
+
+a.external-url:hover .fa-gem {
+    text-shadow: inherit;
+}
+
+.gold {
+    color: gold;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.silver {
+    color: silver;
+}
+
+.lazurite {
+    color: #28489D;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.ruby {
+    color: #e0115f;
+}
+
+.grey {
+    color: grey;
+}
+
+.obsidian {
+    color: #5e5e5e;
+}
+
+.shades-of-blue :first-child {
+    color: mediumblue;
+}
+
+.shades-of-blue :nth-child(2) {
+    color: darkblue;
+}
+
+.sapphire {
+    color: #0f52ba;
+}
+
+.diamond {
+    color: #DFE3ED;
+}
+
+.blue-green {
+    color: #0d98ba;
+}
+
+.aquamarine {
+    color: #7fffd4;
+}
+
+.light-green {
+    color: #67c667;
+}
+
+.dark-green {
+    color: darkgreen;
+}
+
+.olivine {
+    color: #8d945e;
+}
+
+.brown {
+    color: brown;
+}
+
+.malachite {
+    color: #67946D;
+}
+
+.pink {
+    color: #fd7ee1;
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.rose-quartz {
+    color: #C68D86;
+}
+
+.jasper {
+    color: #982D19
+}
+
+.emerald-green {
+    color: #007140;
+}
+
+.emerald {
+    color: #0D9E67;
+}
+
+.purple {
+    color: purple;
+}
+
+.amethyst {
+    color: #7C6B8D;
+}
+
+.agate {
+    color: #D5755F;
+}
+
+.hematite {
+    color: #7C878D;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.quartz-cintrine {
+    color: #C6A544;
+}
+
+.tigers-eye {
+    color: #BC5007;
+}
+
+.chalcedony {
+    color: #7B8698;
+}

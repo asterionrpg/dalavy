@@ -1,0 +1,37 @@
+{
+    "name": "asterion/dalavy",
+    "license": "proprietary",
+    "type": "page",
+    "description": "Geographical module of Asterion RPG",
+    "keywords": [
+        "Asterion",
+        "Dálavy",
+        "geographic",
+        "RPG",
+        "module"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asterion\\": "Asterion/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "drdplus/rules-skeleton": "^3.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0",
+        "granam/exceptions-hierarchy": "^5.0",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "^9.3",
+        "roave/security-advisories": "dev-master"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "pre-autoload-dump": [
+            "rm -f tests/RulesSkeleton && mkdir -p tests/RulesSkeleton && ln -s vendor/drdplus/rules-skeleton/tests/RulesSkeleton tests/RulesSkeleton"
+        ]
+    }
+}

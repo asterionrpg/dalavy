@@ -1,0 +1,18 @@
+web:
+  protected_access: false
+  name: 'Asterion RPG - Dálavy'
+  title_smiley: '☠'
+  default_public_to_local_url_part_regexp: '~https?://((?:[^.]+[.])*)asterionrpg[.]cz~'
+  default_public_to_local_url_part_replacement: 'http://$1asterionrpg.loc'
+  menu:
+    position_fixed: false
+    show_home_button_on_homepage: false
+    show_home_button_on_routes: false
+    home_button_target: 'https://www.drdplus.info/asterion'
+    items:
+      facebook: 'https://www.facebook.com/AsterionSvet/'
+      discord: 'https://discord.com/invite/x5DzAx3'
+google:
+  analytics_id: 'UA-121206931-0'
+application:
+  yaml_file_with_routes: 'routes.yml'

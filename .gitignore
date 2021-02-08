@@ -1,0 +1,6 @@
+/js/generic
+/css/generic
+/images/generic
+/vendor
+/docker-compose.override.yml
+/config.local.yml

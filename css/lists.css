@@ -1,0 +1,74 @@
+ol.content {
+    list-style-type: upper-alpha;
+}
+
+ol.content > li {
+    text-transform: uppercase;
+}
+
+ol.content > li li {
+    text-transform: none;
+}
+
+ol.content ol {
+    list-style-type: lower-alpha;
+}
+
+ol.content ol ol {
+    list-style-type: decimal;
+}
+
+ol.seznam-značený-abecedou {
+    list-style-type: none;
+    counter-reset: seznam-značený-abecedou;
+    padding-left: 0;
+}
+
+ol.seznam-značený-abecedou li::before {
+    counter-increment: seznam-značený-abecedou;
+    content: counter(seznam-značený-abecedou, lower-alpha) ")";
+    margin-right: 1em;
+}
+
+ul.diamond-list {
+    padding-left: 0;
+}
+
+ul.diamond-list li {
+    list-style: none;
+}
+
+ul.diamond-list li:before {
+    font-family: symbol, "Times New Roman", serif;
+    content: '¨';
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+
+ol.časová-osa {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: casova-osa;
+}
+
+ol.časová-osa li {
+    padding: 0.1em 0.1em 0.1em 2.8em;
+}
+
+ol.časová-osa li:before {
+    content: counter(casova-osa);
+    position: absolute;
+    left: 0;
+    padding-left: 0.1em;
+    width: 2.5em;
+    text-align: right;
+}
+
+ol.časová-osa p {
+    text-indent: 0;
+}
+
+ol.časová-osa li.významné {
+    background-color: #e5e5e5;
+}
