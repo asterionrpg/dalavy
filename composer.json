@@ -31,7 +31,7 @@
     },
     "scripts": {
         "pre-autoload-dump": [
-            "rm -f tests/RulesSkeleton && mkdir -p tests/RulesSkeleton && ln -s vendor/drdplus/rules-skeleton/tests/RulesSkeleton tests/RulesSkeleton"
+            "cd tests && rm -f RulesSkeleton && ln -s vendor/drdplus/rules-skeleton/tests/RulesSkeleton ."
         ]
     }
 }

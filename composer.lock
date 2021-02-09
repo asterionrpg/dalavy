@@ -478,16 +478,16 @@
         },
         {
             "name": "granam/web-content-builder",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/granam/web-content-builder.git",
-                "reference": "a77b1598cb625f4f09ac9b014dc4268411fe4d4d"
+                "reference": "b82cff248e58d822e9d1bac65046905abf455c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/granam/web-content-builder/zipball/a77b1598cb625f4f09ac9b014dc4268411fe4d4d",
-                "reference": "a77b1598cb625f4f09ac9b014dc4268411fe4d4d",
+                "url": "https://api.github.com/repos/granam/web-content-builder/zipball/b82cff248e58d822e9d1bac65046905abf455c63",
+                "reference": "b82cff248e58d822e9d1bac65046905abf455c63",
                 "shasum": ""
             },
             "require": {
@@ -534,9 +534,9 @@
             ],
             "support": {
                 "issues": "https://github.com/granam/web-content-builder/issues",
-                "source": "https://github.com/granam/web-content-builder/tree/2.2.0"
+                "source": "https://github.com/granam/web-content-builder/tree/2.2.1"
             },
-            "time": "2021-02-04T15:56:46+00:00"
+            "time": "2021-02-09T07:32:04+00:00"
         },
         {
             "name": "granam/yaml-reader",
