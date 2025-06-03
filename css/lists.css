@@ -11,7 +11,7 @@ ol.content > li li {
 }
 
 ol.content ol {
-    list-style-type: lower-alpha;
+    list-style-type: decimal;
 }
 
 ol.content ol ol {
