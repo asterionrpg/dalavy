@@ -7,4 +7,6 @@ services:
             - .:/var/www/html
         environment:
             APACHE_DOCUMENT_ROOT: /var/www/html
+            PROJECT_ENVIRONMENT: development
+
         user: 1000:1000
