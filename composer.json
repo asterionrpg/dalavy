@@ -27,7 +27,11 @@
         "roave/security-advisories": "dev-master"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "drdplus/rules-skeleton": true,
+            "granam/web-content-builder": true
+        }
     },
     "scripts": {
         "pre-autoload-dump": [

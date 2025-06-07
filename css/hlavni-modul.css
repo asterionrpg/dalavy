@@ -12,6 +12,19 @@ p {
     padding: 0.1em 0.3em;
 }
 
+.významné {
+    background-color: #e5e5e5;
+    padding: 0.1em 0.3em;
+    BORDER-BOTTOM: windowtext 0.75pt solid; 
+    BORDER-LEFT: windowtext 0.75pt solid; 
+    BORDER-RIGHT: windowtext 0.75pt solid; 
+    BORDER-TOP: windowtext 0.75pt solid; 
+    PADDING-BOTTOM: 1pt; 
+    PADDING-LEFT: 1pt; 
+    PADDING-RIGHT: 1pt; 
+    PADDING-TOP: 1pt
+}
+
 .rada {
     background-color: aqua;
 }
@@ -21,11 +34,30 @@ div.rada {
     width: max-content;
 }
 
+.rámeček {
+    BORDER-BOTTOM: windowtext 0.75pt solid; 
+    BORDER-LEFT: windowtext 0.75pt solid; 
+    BORDER-RIGHT: windowtext 0.75pt solid; 
+    BORDER-TOP: windowtext 0.75pt solid; 
+    PADDING-BOTTOM: 1pt; 
+    PADDING-LEFT: 1pt; 
+    PADDING-RIGHT: 1pt; 
+    PADDING-TOP: 1pt
+}
+
 .tajné {
     color: #676767;
     margin: 0.3em 0;
     text-align: justify;
     font-size: 0.9em;
+    BORDER-BOTTOM: windowtext 0.75pt solid; 
+    BORDER-LEFT: windowtext 0.75pt solid; 
+    BORDER-RIGHT: windowtext 0.75pt solid; 
+    BORDER-TOP: windowtext 0.75pt solid; 
+    PADDING-BOTTOM: 1pt; 
+    PADDING-LEFT: 1pt; 
+    PADDING-RIGHT: 1pt; 
+    PADDING-TOP: 1pt
 }
 
 .detail-v-zápatí {
